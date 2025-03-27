@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jamboxx Infinite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header: "Development Blog" on the left, links on the right -->
+  <header>
+    <div class="header-left">Development Blog</div>
+    <nav class="header-right">
+      <!-- Links for months -->
+      <a href="#oct2024">Oct 2024</a>
+      <a href="#nov2024">Nov 2024</a>
+      <a href="#dec2024">Dec 2024</a>
+      <a href="#jan2025">Jan 2025</a>
+      <a href="#feb2025">Feb 2025</a>
+      <a href="#mar2025">Mar 2025</a>
+      <!-- Separate links for specific dates in March -->
+      <a href="#mar4">Mar 4</a>
+      <a href="#mar11">Mar 11</a>
+      <a href="#mar25">Mar 25</a>
+    </nav>
+  </header>
+
+  <!-- Hero section: big title (animated letter-by-letter), subtitle, and the piano -->
+  <section class="hero">
+    <!-- Главный заголовок с раздельными буквами -->
+    <h1 class="main-title">
+      <span>J</span>
+      <span>a</span>
+      <span>m</span>
+      <span>b</span>
+      <span>o</span>
+      <span>x</span>
+      <span>x</span>
+      <span>&nbsp;</span>
+      <span>I</span>
+      <span>n</span>
+      <span>f</span>
+      <span>i</span>
+      <span>n</span>
+      <span>i</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+
+    <!-- Подзаголовок серым цветом -->
+    <h2 class="subtitle">Music is possible for everyone</h2>
+
+
+    <div class="piano">
+      <div class="keys">
+        <!-- White keys -->
+        <div class="white-key" data-note="C4" data-frequency="261.63"></div>
+        <div class="white-key" data-note="D4" data-frequency="293.66"></div>
+        <div class="white-key" data-note="E4" data-frequency="329.63"></div>
+        <div class="white-key" data-note="F4" data-frequency="349.23"></div>
+        <div class="white-key" data-note="G4" data-frequency="392.00"></div>
+        <div class="white-key" data-note="A4" data-frequency="440.00"></div>
+        <div class="white-key" data-note="B4" data-frequency="493.88"></div>
+        <div class="white-key" data-note="C5" data-frequency="523.25"></div>
+        <!-- Black keys -->
+        <div class="black-key" data-note="C4_black" style="left: calc(12.5% - 3.125%);"></div>
+        <div class="black-key" data-note="D4_black" style="left: calc(25% - 3.125%);"></div>
+        <div class="black-key" data-note="F4_black" style="left: calc(50% - 3.125%);"></div>
+        <div class="black-key" data-note="G4_black" style="left: calc(62.5% - 3.125%);"></div>
+        <div class="black-key" data-note="A4_black" style="left: calc(75% - 3.125%);"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog posts section -->
+  <section class="blog-posts">
+
+    <!-- OCTOBER 2024 -->
+    <section class="blog-post" id="oct2024">
+      <div class="blog-post-date">
+        <h2>October 2024</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          <strong>Discovery & Planning:</strong> In October we officially launched the project with a Kick-off Meeting
+          with the client, where we discussed goals and key success indicators. We then proceeded with detailed
+          requirement clarification and conducted user research with school children and teachers to understand their
+          musical habits and expectations.
+        </p>
+        <p>
+          Based on the gathered insights, we finalized the core features and held our first client review session. In
+          parallel, we began preparing an HCI report to document the user interaction
+          aspects.
+          For visualization, we created personas (Persona Photo 1 and Photo 2) representing our future users.
+        </p>
+        <p>Persona Photo 1:</p>
+        <img src="images/persona_1.png" alt="Persona Photo 1" class="blog-image">
+        <p>Persona Photo 2:</p>
+        <img src="images/persona_2.png" alt="Persona Photo 2" class="blog-image">
+      </div>
+    </section>
+
+    <!-- NOVEMBER 2024 -->
+    <section class="blog-post" id="nov2024">
+      <div class="blog-post-date">
+        <h2>November 2024</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          <strong>Project Setup / Infrastructure:</strong> In November, we submitted the HCI report and proceeded with
+          setting up the project’s infrastructure. Our Git repository (GIT Picture)
+          played
+          a key role as we configured basic branches, CI/CD, and coding standards. We also conducted a technical
+          feasibility review and held a second client review session.
+        </p>
+        <p>Git Picture:</p>
+        <img src="images/git.png" alt="Git Picture" class="blog-image">
+        <p>
+          In parallel, work on artificial intelligence began: we started setting up the backend for AI Voice Cloning and
+          the AI Music Teacher. On the frontend, we chose Unity and established the initial
+          multiplayer network setup. Additionally, we launched development of virtual
+          instruments and began designing the first instrument – the drums (Drums photo). Following a further client
+          review, we started developing the piano and ukulele instruments to build a comprehensive musical environment.
+        </p>
+        <p>Drums Photo:</p>
+        <img src="images/drums.png" alt="Drums Photo" class="blog-image">
+      </div>
+    </section>
+
+    <!-- DECEMBER 2024 -->
+    <section class="blog-post" id="dec2024">
+      <div class="blog-post-date">
+        <h2>December 2024</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          <strong>Prototyping & System Setup:</strong> In December we completed the development of virtual instruments,
+          adding motion input control (Piano face navigation photo). We also finalized the drums and fully implemented
+          updates for the piano and ukulele instruments. The client provided further feedback, which we incorporated
+          during
+          the final refinement of design and logic.
+        </p>
+        <p>Piano face navigation photo:</p>
+        <img src="images/piano.png" alt="Piano Face Navigation" class="blog-image">
+        <p>
+          Additionally, we initiated and quickly completed the development of a fourth instrument – the harmonica. At
+          the same time, we began work on the backend logic for AI Voice Cloning to enable cloning of a singer’s voice
+          so that the cloned voice could be used
+          as a backing vocal.
+        </p>
+      </div>
+    </section>
+
+    <!-- JANUARY 2025 -->
+    <section class="blog-post" id="jan2025">
+      <div class="blog-post-date">
+        <h2>January 2025</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          <strong>Integration & Further Development:</strong> In January we continued refining the backend logic for AI
+          Voice Cloning, striving to improve synthesis quality and stability. We also
+          held a major client review session – our first official presentation to clients and
+          partners. We received many positive comments along with constructive criticism, and subsequently focused on
+          the
+          most critical suggestions.
+        </p>
+        <p>
+          Concurrently, we started integrating minigames (Minigames photo) designed to make the learning process more
+          engaging (Minigames photoO), especially given that our target audience includes children.
+        </p>
+        <p>Game 1 photo:</p>
+        <img src="images/minigames.png" alt="Minigames Photo" class="blog-image">
+        <p>
+          We developed prototypes for two minigames (Minigames 1 and Minigames 2) and tested them (Game photo). At the
+          end of the month, we began developing real-time multiplayer networking logic so users could experience playing
+          together as a real musical group (Multiplayer Real-time Networking Logic).
+        </p>
+        <p>Game 1 photo:</p>
+        <img src="images/game.png" alt="Minigames Photo" class="blog-image">
+      </div>
+    </section>
+
+    <!-- FEBRUARY 2025 -->
+    <section class="blog-post" id="feb2025">
+      <div class="blog-post-date">
+        <h2>February 2025</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          <strong>Testing & QA:</strong> In February we held two additional client review sessions. The main focus was
+          on completing the implementation of real-time multiplayer networking and refining the backend logic for AI
+          Voice Cloning (Voice photo).
+          The voice cloning feature underwent significant changes and now allows users to change the singer’s voice in
+          any
+          song to a selected trained model.
+        </p>
+        <p>Voice photo:</p>
+        <img src="images/voice.JPG" alt="Voice Photo" class="blog-image">
+        <p>
+          Additionally, we rapidly developed a third minigame — after deciding to cancel a fourth minigame
+          following a client call—and implemented the backend logic for the AI Music Teacher, which helps users generate
+          lyrics and answers music-related questions. In parallel, we created a
+          settings page and began full-scale integration of the frontend design. The result was a unified application
+          style (Dashboard photo) where all
+          functions and interfaces appear cohesive.
+        </p>
+        <p>Dashboard photo:</p>
+        <img src="images/dashboard.jpg" alt="Dashboard Photo" class="blog-image">
+      </div>
+    </section>
+
+    <!-- MARCH 2025 -->
+    <section class="blog-post" id="mar2025">
+      <div class="blog-post-date">
+        <h2>March 2025</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          <strong>Launch & Delivery:</strong> March began with another round of client feedback (Client Review &
+          Feedback
+          #7). We swiftly implemented interface adjustments and bug fixes (UI Bug Fixes & Adjustments)
+          (Final design photo). At this stage, we undertook the monumental task of reworking the AI Teacher into a fully
+          offline version, which was successfully achieved. We also added significant new functionality – such as
+          recording sessions and saving them during collaborative music creation in multiplayer mode.
+        </p>
+        <p>Final design photo:</p>
+        <img src="images/final.png" alt="Final Design Photo" class="blog-image">
+        <p>
+          After another review (Client Review & Feedback #8), we incorporated the final recommendations, evaluated the
+          overall volume of comments (Evaluate Feedback & Final Changes), and compiled the final backend (Compile
+          Backend). In the final phase, we packaged the application (Package App) so that the client could easily deploy
+          and maintain the product.
+        </p>
+      </div>
+    </section>
+
+    <!-- 4 MARCH: School Visit -->
+    <section class="blog-post" id="mar4">
+      <div class="blog-post-date">
+        <h2>Mar 4, 2025</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          On March 4, team members Joyce and Ashton visited a local school to demonstrate Jamboxx Infinite to students
+          and teachers. We received numerous comments about the exciting features of the application. Notably, an
+          important request was made: to enable instrument playing by mouse hover rather than by click, making face
+          navigation far more convenient. The children were especially impressed by the virtual instruments and
+          minigames.
+        </p>
+        <p>
+          <em>"It is incredibly rewarding to see that the product we are building truly finds a place in children's
+            hearts. Their genuine smiles are the best motivation,"</em> said Joyce.
+        </p>
+        <p>
+          <em>"I believe the feedback from the teachers was equally important. They know best what should be included in
+            Jamboxx Infinite. There's still much work ahead, but after today, I feel more driven than ever,"</em> added
+          Ashton.
+        </p>
+        <p>Photo from the school:</p>
+        <img src="images/school.JPG" alt="School Photo" class="blog-image">
+      </div>
+    </section>
+
+    <!-- 11 MARCH: AI for Good Student Showcase 2025 -->
+    <section class="blog-post" id="mar11">
+      <div class="blog-post-date">
+        <h2>Mar 11, 2025</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          On March 11, team members Kate and Wesley had the opportunity to present our project for 7 consecutive hours
+          to various clients, partners, and school students. We started by demonstrating Jamboxx Infinite to high school
+          students – many showed a keen interest. Most are studying Computer Science for their A-levels, so they were
+          also curious about our project’s backend. The children enthusiastically tried the motion input for playing
+          virtual instruments and competed in minigames.
+        </p>
+        <p>
+          <em>"I was a bit nervous before the presentation, but all that quickly faded once I saw the genuine interest
+            from the students. They asked questions not because they were prompted, but because they were truly curious
+            and would love to use our project in the future,"</em> said Wesley.
+        </p>
+        <p>
+          <em>"I was most inspired by hearing the children express their admiration for our mission. They said they
+            aspire to become Computer Scientists and change the world for the better, just as we do. After such
+            encouraging words, I felt completely at ease during our presentation to clients and industry partners,"</em>
+          added Kate.
+        </p>
+        <img src="images/11_03.JPG" alt="Placeholder Image" class="blog-image">
+        <img src="images/clients.jpg" alt="Placeholder Image" class="blog-image">
+        <img src="images/11_03_2.JPG" alt="Placeholder Image" class="blog-image">
+      </div>
+    </section>
+
+    <!-- 25 MARCH: Final Presentation -->
+    <section class="blog-post" id="mar25">
+      <div class="blog-post-date">
+        <h2>Mar 25, 2025</h2>
+      </div>
+      <div class="blog-post-content">
+        <p>
+          On March 25, we held the final presentation of the application before UCL professors. We received the final
+          comments and recommendations, which was crucial given that only 2 days remained until final delivery to the
+          client.
+        </p>
+        <p>
+          <em>"I thought we were finished, but we received a lot of last-minute feedback that had to be urgently
+            implemented. So there's no time to rest – we must keep working,"</em> said Joyce.
+        </p>
+        <img src="images/25_03.jpeg" alt="Placeholder Image" class="blog-image">
+      </div>
+    </section>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
